@@ -67,7 +67,7 @@ def useronline(server):
     retvar=''
     avatars=''
 #    avatarlist=''
-    page="<table border='1px'><tr><th>UserID</th><th>Name</th><th>Avatar</th><th>Comment</th></tr>"
+    page="<table border='1px'><tr><th>UserID</th><th>Name</th><th>Comment</th><th>Avatar</th></tr>"
     
     for user in users.iteritems():
 	#Avatar des Benutzers holen
@@ -76,7 +76,7 @@ def useronline(server):
 	except:
 	    avatar=''
 
-        page+='<tr><td valign="top">%s</td><td valign="top">%s</td><td valign="top"><img src="data:image/png;base64,%s" /></td><td>%s</td></tr>' % (user[1].userid, user[1].name, avatar, user[1].comment)
+        page+='<tr><td valign="top">%s</td><td valign="top">%s</td></td><td>%s</td><td valign="top"><img src="data:image/png;base64,%s" /></tr>' % (user[1].userid, user[1].name, user[1].comment, avatar)
 	    
 
     page+='</table>'

@@ -1,5 +1,5 @@
 Features of murmur-listing:
-  * Create a HTML-Page of online/all Users (Name, Comment, Avatar, Lastactive,...).
+  * Create a HTML-Page of online/all Users (UserID, Name, (Last Visit), Comment, Avatar).
   * Create a HTML-Page of all channels (ID, Name, Description, Length of Description).
 
 How to use:

@@ -1,5 +1,8 @@
 Features of murmur-listing:
-  * Create a HTML-Page of online/all Users.
-  * Create a HTML-Page of all channels.
+  * Create a HTML-Page of online/all Users (Name, Comment, Avatar, Lastactive,...).
+  * Create a HTML-Page of all channels (ID, Name, Description, Length of Description).
 
-Project Website: http://wiki.natenom.name/mumble/tools/userlist
+How to use:
+  listing.py all|online|channels [ServerID] > /var/www/yourlist.html
+
+Project Website: http://wiki.natenom.name/mumble/tools/listing
